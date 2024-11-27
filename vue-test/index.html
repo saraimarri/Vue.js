@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vue.js</title>
+</head>
+
+<body>
+
+    <div id="app">
+
+        <h1>Welcome To Vue.js Course</h1>
+        <p>Welcome {{'Mr ' + name }} We Are Happy To See You</p>
+        <p>Your Age Is: {{ age + ' Years'}}</p>
+        <p>Your First Skills Is: {{ skills[0]}}</p>
+        <p>You are {{ isSubscribed ? ' Subscribed' : 'Not Subscribed' }}</p>
+        <p>Your First Test Name Is: {{ completedTests[1].testName }}</p>
+    </div>
+<div id="ap">
+<h1 :style= "{ color: activeColor, fontSize: fontSize + 'px'}">
+    Is Peter Parker spiderman
+</h1>
+</div>
+
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
